@@ -21,8 +21,8 @@ namespace TaskSchedulerKO
             bundles.Add(new ScriptBundle("~/bundles/bootstrap").Include(
                       "~/Scripts/bootstrap.js"));
 
-            bundles.Add(new ScriptBundle("~/bundles/knockout").Include(
-                      "~/Scripts/knockout-3.5.0.js"));
+            bundles.Add(new ScriptBundle("~/bundles/vue.js").Include(
+                      "~/Scripts/vue.min.js"));
 
             bundles.Add(new ScriptBundle("~/bundles/index.js").Include(
                       "~/Views/Scripts.index.js"));
